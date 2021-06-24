@@ -1,0 +1,1 @@
+﻿#includepath "~/Documents/;%USERPROFILE%Documents";#include "basiljs/bundle/basil.js";function draw() {    selItems = b.selection();    b.typo(selItems, 'appliedFont', 'Lithos Pro\tBlack');    b.typo(selItems, "pointSize", 34);  };b.go();

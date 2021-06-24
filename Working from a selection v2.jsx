@@ -1,0 +1,1 @@
+﻿#includepath "~/Documents/;%USERPROFILE%Documents";#include "basiljs/bundle/basil.js";function draw() {  selItems = b.selections()[0];    b.typo(selItems, "pointSize", 6);};b.go();

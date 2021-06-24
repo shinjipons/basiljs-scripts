@@ -1,0 +1,1 @@
+#includepath "~/Documents/;%USERPROFILE%Documents";#include "basiljs/bundle/basil.js";function draw() {	b.canvasMode(b.MARGIN);      // add new layer  var layer = b.layer("myLayer");  b.ellipse(b.width/2, b.height/2, 10, 10);  // set active layer  b.layer(layer);    // also possible:  b.layer("myLayer");}b.go();
